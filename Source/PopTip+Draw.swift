@@ -5,6 +5,7 @@
 //  Created by Andrea Mazzini on 01/05/2017.
 //  Copyright © 2017 Andrea Mazzini. All rights reserved.
 //
+import UIKit
 
 fileprivate func degreesToRadians(degrees: CGFloat) -> CGFloat {
   return (CGFloat.pi * degrees) / 180

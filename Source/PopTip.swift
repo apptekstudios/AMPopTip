@@ -160,6 +160,12 @@ open class PopTip: UIView {
   @objc open dynamic var shouldDismissOnTapOutside = true
   /// A boolean value that determines whether to dismiss when swiping outside the poptip.
   @objc open dynamic var shouldDismissOnSwipeOutside = false
+  /// A shortcut to disable the dismissal gestures
+  func disableGestures() {
+        shouldDismissOnTap = false
+        shouldDismissOnTapOutside = false
+        shouldDismissOnSwipeOutside = false
+  }
   /// A boolean value that determines if the action animation should start automatically when the poptip is shown
   @objc open dynamic var startActionAnimationOnShow = true
   /// A direction that determines what swipe direction to dismiss when swiping outside the poptip.
