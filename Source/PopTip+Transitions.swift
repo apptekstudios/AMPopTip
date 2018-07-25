@@ -7,6 +7,8 @@
 //
 import UIKit
 
+import UIKit
+
 public extension PopTip {
 
   /// Triggers the chosen entrance animation
